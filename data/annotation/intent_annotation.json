@@ -1,0 +1,587 @@
+[
+  {
+    "user_input": "我有法律问题需要咨询",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "想咨询一下法律方面的问题",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "需要法律帮助",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "法律咨询服务",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "我有一个法律问题想请教",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "劳动合同纠纷",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "公司拖欠我的工资",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "加班工资计算问题",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "公司解除了我的劳动合同",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "试用期被辞退",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "未签劳动合同双倍工资",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "社保缴纳问题",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "公积金缴纳问题",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "劳动仲裁申请流程",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "经济补偿金计算",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "竞业限制协议",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "年假规定",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "病假工资计算",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "产假规定",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "婚姻家庭纠纷",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "想咨询离婚相关问题",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "离婚财产分割",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "子女抚养权问题",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "抚养费计算",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "遗产继承问题",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "房产继承纠纷",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "遗嘱公证",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "婚前财产公证",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "家庭暴力问题",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "探视权问题",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "赡养费计算",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "重婚罪咨询",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "婚外情问题",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "离婚损害赔偿",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "交通事故赔偿",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "车祸责任认定",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交通事故保险理赔",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交通事故伤残鉴定",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交通事故逃逸处理",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "酒驾处罚标准",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "无证驾驶处罚",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "闯红灯处罚",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交通事故追尾责任",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交通事故医疗费用赔偿",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交通事故误工费计算",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交通事故护理费赔偿",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交通事故营养费赔偿",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "房产纠纷咨询",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "房屋买卖合同纠纷",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "房屋租赁纠纷",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "房产产权问题",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "拆迁补偿标准",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "二手房买卖纠纷",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "房屋装修纠纷",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "物业费纠纷",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "停车位纠纷",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "房屋质量问题",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "房屋漏水纠纷",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "邻居纠纷",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "知识产权问题咨询",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "专利申请流程",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "商标注册问题",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "著作权保护",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "版权纠纷处理",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "知识产权侵权赔偿",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "假冒商标处罚",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "发明专利申请",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "实用新型专利",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "外观设计专利",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "软件著作权登记",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "域名纠纷处理",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "刑事案件咨询",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "刑事辩护律师",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "盗窃罪量刑标准",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "故意伤害罪量刑",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "诈骗罪量刑标准",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "贪污罪构成要件",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "受贿罪量刑",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "取保候审条件",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "缓刑适用条件",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "拘役期限",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "有期徒刑量刑",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "律师辩护流程",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "行政诉讼咨询",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "行政复议流程",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "行政处罚异议",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "行政许可申请",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "政府信息公开申请",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "工商注册流程",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "税务问题咨询",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "社保缴纳咨询",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "营业执照办理",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "行政许可审批",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "行政处罚罚款",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "行政听证程序",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "合同纠纷咨询",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "合同签订注意事项",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "合同履行问题",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "合同解除条件",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "违约责任承担",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "合同效力认定",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "定金与违约金",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "不可抗力条款",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "格式条款效力",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "买卖合同纠纷",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "借款合同纠纷",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "租赁合同纠纷",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "其他法律问题",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "公司法律事务",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "海商法律问题",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "环境法律问题",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "金融法律问题",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "国际贸易法律",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "医疗纠纷咨询",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "教育法律问题",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "知识产权维权",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "消费者权益保护",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  }
+]

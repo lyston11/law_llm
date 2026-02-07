@@ -1,0 +1,3002 @@
+[
+  {
+    "user_input": "公司没给交社保可以仲裁吗",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "公司没给交社保可以仲裁吗？",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "请问公司没给交社保可以仲裁吗",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "公司没给交社保可以仲裁吗，求解",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "想咨询一下公司没给交社保可以仲裁吗",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "关于公司没给交社保可以仲裁吗的问题",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "公司没给交社保可以仲裁吗应该怎么处理",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "公司没给交社保可以仲裁吗有什么解决办法",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "遇到公司没给交社保可以仲裁吗该怎么办",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "公司没给交社保可以仲裁吗怎么解决",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "试用期最后一天被辞退有补偿吗",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "试用期最后一天被辞退有补偿吗？",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "请问试用期最后一天被辞退有补偿吗",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "试用期最后一天被辞退有补偿吗，求解",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "想咨询一下试用期最后一天被辞退有补偿吗",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "关于试用期最后一天被辞退有补偿吗的问题",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "试用期最后一天被辞退有补偿吗应该怎么处理",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "试用期最后一天被辞退有补偿吗有什么解决办法",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "遇到试用期最后一天被辞退有补偿吗该怎么办",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "试用期最后一天被辞退有补偿吗怎么解决",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "公司拖欠工资怎么办",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "公司拖欠工资怎么办？",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "请问公司拖欠工资怎么办",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "公司拖欠工资怎么办，求解",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "想咨询一下公司拖欠工资怎么办",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "关于公司拖欠工资怎么办的问题",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "公司拖欠工资怎么办应该怎么处理",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "公司拖欠工资怎么办有什么解决办法",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "遇到公司拖欠工资怎么办该怎么办",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "公司拖欠工资怎么办怎么解决",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "加班没有加班费合法吗",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "加班没有加班费合法吗？",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "请问加班没有加班费合法吗",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "加班没有加班费合法吗，求解",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "想咨询一下加班没有加班费合法吗",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "关于加班没有加班费合法吗的问题",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "加班没有加班费合法吗应该怎么处理",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "加班没有加班费合法吗有什么解决办法",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "遇到加班没有加班费合法吗该怎么办",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "加班没有加班费合法吗怎么解决",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "被公司无辜辞退怎么维权",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "被公司无辜辞退怎么维权？",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "请问被公司无辜辞退怎么维权",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "被公司无辜辞退怎么维权，求解",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "想咨询一下被公司无辜辞退怎么维权",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "关于被公司无辜辞退怎么维权的问题",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "被公司无辜辞退怎么维权应该怎么处理",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "被公司无辜辞退怎么维权有什么解决办法",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "遇到被公司无辜辞退怎么维权该怎么办",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "被公司无辜辞退怎么维权怎么解决",
+    "intent_label": "scenario-法律问答_node2",
+    "scenario_id": "labor_consultation"
+  },
+  {
+    "user_input": "离婚房产证没加名能分到房子吗",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "离婚房产证没加名能分到房子吗？",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "请问离婚房产证没加名能分到房子吗",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "离婚房产证没加名能分到房子吗，求解",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "想咨询一下离婚房产证没加名能分到房子吗",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "关于离婚房产证没加名能分到房子吗的问题",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "离婚房产证没加名能分到房子吗应该怎么处理",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "离婚房产证没加名能分到房子吗有什么解决办法",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "遇到离婚房产证没加名能分到房子吗该怎么办",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "离婚房产证没加名能分到房子吗怎么解决",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "离婚时工资存款怎么分割",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "离婚时工资存款怎么分割？",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "请问离婚时工资存款怎么分割",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "离婚时工资存款怎么分割，求解",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "想咨询一下离婚时工资存款怎么分割",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "关于离婚时工资存款怎么分割的问题",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "离婚时工资存款怎么分割应该怎么处理",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "离婚时工资存款怎么分割有什么解决办法",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "遇到离婚时工资存款怎么分割该怎么办",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "离婚时工资存款怎么分割怎么解决",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "婚前买的房子离婚怎么分",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "婚前买的房子离婚怎么分？",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "请问婚前买的房子离婚怎么分",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "婚前买的房子离婚怎么分，求解",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "想咨询一下婚前买的房子离婚怎么分",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "关于婚前买的房子离婚怎么分的问题",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "婚前买的房子离婚怎么分应该怎么处理",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "婚前买的房子离婚怎么分有什么解决办法",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "遇到婚前买的房子离婚怎么分该怎么办",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "婚前买的房子离婚怎么分怎么解决",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "离婚时债务如何分担",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "离婚时债务如何分担？",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "请问离婚时债务如何分担",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "离婚时债务如何分担，求解",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "想咨询一下离婚时债务如何分担",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "关于离婚时债务如何分担的问题",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "离婚时债务如何分担应该怎么处理",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "离婚时债务如何分担有什么解决办法",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "遇到离婚时债务如何分担该怎么办",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "离婚时债务如何分担怎么解决",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "彩礼钱离婚时需要退还吗",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "彩礼钱离婚时需要退还吗？",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "请问彩礼钱离婚时需要退还吗",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "彩礼钱离婚时需要退还吗，求解",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "想咨询一下彩礼钱离婚时需要退还吗",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "关于彩礼钱离婚时需要退还吗的问题",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "彩礼钱离婚时需要退还吗应该怎么处理",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "彩礼钱离婚时需要退还吗有什么解决办法",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "遇到彩礼钱离婚时需要退还吗该怎么办",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "彩礼钱离婚时需要退还吗怎么解决",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "借条写了还钱日期过期了还能起诉吗",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "借条写了还钱日期过期了还能起诉吗？",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "请问借条写了还钱日期过期了还能起诉吗",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "借条写了还钱日期过期了还能起诉吗，求解",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "想咨询一下借条写了还钱日期过期了还能起诉吗",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "关于借条写了还钱日期过期了还能起诉吗的问题",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "借条写了还钱日期过期了还能起诉吗应该怎么处理",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "借条写了还钱日期过期了还能起诉吗有什么解决办法",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "遇到借条写了还钱日期过期了还能起诉吗该怎么办",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "借条写了还钱日期过期了还能起诉吗怎么解决",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "借钱给别人没有借条能要回来吗",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "借钱给别人没有借条能要回来吗？",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "请问借钱给别人没有借条能要回来吗",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "借钱给别人没有借条能要回来吗，求解",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "想咨询一下借钱给别人没有借条能要回来吗",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "关于借钱给别人没有借条能要回来吗的问题",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "借钱给别人没有借条能要回来吗应该怎么处理",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "借钱给别人没有借条能要回来吗有什么解决办法",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "遇到借钱给别人没有借条能要回来吗该怎么办",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "借钱给别人没有借条能要回来吗怎么解决",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "高利贷合法吗",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "高利贷合法吗？",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "请问高利贷合法吗",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "高利贷合法吗，求解",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "想咨询一下高利贷合法吗",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "关于高利贷合法吗的问题",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "高利贷合法吗应该怎么处理",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "高利贷合法吗有什么解决办法",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "遇到高利贷合法吗该怎么办",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "高利贷合法吗怎么解决",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "借款利息多少受法律保护",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "借款利息多少受法律保护？",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "请问借款利息多少受法律保护",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "借款利息多少受法律保护，求解",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "想咨询一下借款利息多少受法律保护",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "关于借款利息多少受法律保护的问题",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "借款利息多少受法律保护应该怎么处理",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "借款利息多少受法律保护有什么解决办法",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "遇到借款利息多少受法律保护该怎么办",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "借款利息多少受法律保护怎么解决",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "朋友借钱不还怎么起诉",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "朋友借钱不还怎么起诉？",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "请问朋友借钱不还怎么起诉",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "朋友借钱不还怎么起诉，求解",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "想咨询一下朋友借钱不还怎么起诉",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "关于朋友借钱不还怎么起诉的问题",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "朋友借钱不还怎么起诉应该怎么处理",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "朋友借钱不还怎么起诉有什么解决办法",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "遇到朋友借钱不还怎么起诉该怎么办",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "朋友借钱不还怎么起诉怎么解决",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "交通事故对方全责护理费怎么算",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交通事故对方全责护理费怎么算？",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "请问交通事故对方全责护理费怎么算",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交通事故对方全责护理费怎么算，求解",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "想咨询一下交通事故对方全责护理费怎么算",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "关于交通事故对方全责护理费怎么算的问题",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交通事故对方全责护理费怎么算应该怎么处理",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交通事故对方全责护理费怎么算有什么解决办法",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "遇到交通事故对方全责护理费怎么算该怎么办",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交通事故对方全责护理费怎么算怎么解决",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交通事故伤残鉴定什么时候做",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交通事故伤残鉴定什么时候做？",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "请问交通事故伤残鉴定什么时候做",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交通事故伤残鉴定什么时候做，求解",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "想咨询一下交通事故伤残鉴定什么时候做",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "关于交通事故伤残鉴定什么时候做的问题",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交通事故伤残鉴定什么时候做应该怎么处理",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交通事故伤残鉴定什么时候做有什么解决办法",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "遇到交通事故伤残鉴定什么时候做该怎么办",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交通事故伤残鉴定什么时候做怎么解决",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交通事故对方逃逸怎么处理",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交通事故对方逃逸怎么处理？",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "请问交通事故对方逃逸怎么处理",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交通事故对方逃逸怎么处理，求解",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "想咨询一下交通事故对方逃逸怎么处理",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "关于交通事故对方逃逸怎么处理的问题",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交通事故对方逃逸怎么处理应该怎么处理",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交通事故对方逃逸怎么处理有什么解决办法",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "遇到交通事故对方逃逸怎么处理该怎么办",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交通事故对方逃逸怎么处理怎么解决",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交强险赔偿范围包括哪些",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交强险赔偿范围包括哪些？",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "请问交强险赔偿范围包括哪些",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交强险赔偿范围包括哪些，求解",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "想咨询一下交强险赔偿范围包括哪些",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "关于交强险赔偿范围包括哪些的问题",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交强险赔偿范围包括哪些应该怎么处理",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交强险赔偿范围包括哪些有什么解决办法",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "遇到交强险赔偿范围包括哪些该怎么办",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交强险赔偿范围包括哪些怎么解决",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交通事故责任划分标准",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交通事故责任划分标准？",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "请问交通事故责任划分标准",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交通事故责任划分标准，求解",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "想咨询一下交通事故责任划分标准",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "关于交通事故责任划分标准的问题",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交通事故责任划分标准应该怎么处理",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交通事故责任划分标准有什么解决办法",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "遇到交通事故责任划分标准该怎么办",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "交通事故责任划分标准怎么解决",
+    "intent_label": "scenario-法律问答_node4",
+    "scenario_id": "traffic_consultation"
+  },
+  {
+    "user_input": "合同没盖章但签了字有效吗",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "合同没盖章但签了字有效吗？",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "请问合同没盖章但签了字有效吗",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "合同没盖章但签了字有效吗，求解",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "想咨询一下合同没盖章但签了字有效吗",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "关于合同没盖章但签了字有效吗的问题",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "合同没盖章但签了字有效吗应该怎么处理",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "合同没盖章但签了字有效吗有什么解决办法",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "遇到合同没盖章但签了字有效吗该怎么办",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "合同没盖章但签了字有效吗怎么解决",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "对方违约可以解除合同吗",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "对方违约可以解除合同吗？",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "请问对方违约可以解除合同吗",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "对方违约可以解除合同吗，求解",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "想咨询一下对方违约可以解除合同吗",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "关于对方违约可以解除合同吗的问题",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "对方违约可以解除合同吗应该怎么处理",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "对方违约可以解除合同吗有什么解决办法",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "遇到对方违约可以解除合同吗该怎么办",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "对方违约可以解除合同吗怎么解决",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "合同纠纷的诉讼时效是多久",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "合同纠纷的诉讼时效是多久？",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "请问合同纠纷的诉讼时效是多久",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "合同纠纷的诉讼时效是多久，求解",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "想咨询一下合同纠纷的诉讼时效是多久",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "关于合同纠纷的诉讼时效是多久的问题",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "合同纠纷的诉讼时效是多久应该怎么处理",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "合同纠纷的诉讼时效是多久有什么解决办法",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "遇到合同纠纷的诉讼时效是多久该怎么办",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "合同纠纷的诉讼时效是多久怎么解决",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "合同到期后不续签有补偿吗",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "合同到期后不续签有补偿吗？",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "请问合同到期后不续签有补偿吗",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "合同到期后不续签有补偿吗，求解",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "想咨询一下合同到期后不续签有补偿吗",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "关于合同到期后不续签有补偿吗的问题",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "合同到期后不续签有补偿吗应该怎么处理",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "合同到期后不续签有补偿吗有什么解决办法",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "遇到合同到期后不续签有补偿吗该怎么办",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "合同到期后不续签有补偿吗怎么解决",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "格式合同有法律效力吗",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "格式合同有法律效力吗？",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "请问格式合同有法律效力吗",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "格式合同有法律效力吗，求解",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "想咨询一下格式合同有法律效力吗",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "关于格式合同有法律效力吗的问题",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "格式合同有法律效力吗应该怎么处理",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "格式合同有法律效力吗有什么解决办法",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "遇到格式合同有法律效力吗该怎么办",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "格式合同有法律效力吗怎么解决",
+    "intent_label": "scenario-法律问答_node9",
+    "scenario_id": "contract_consultation"
+  },
+  {
+    "user_input": "刑事案件一审没请律师还能上诉补救吗",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "刑事案件一审没请律师还能上诉补救吗？",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "请问刑事案件一审没请律师还能上诉补救吗",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "刑事案件一审没请律师还能上诉补救吗，求解",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "想咨询一下刑事案件一审没请律师还能上诉补救吗",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "关于刑事案件一审没请律师还能上诉补救吗的问题",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "刑事案件一审没请律师还能上诉补救吗应该怎么处理",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "刑事案件一审没请律师还能上诉补救吗有什么解决办法",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "遇到刑事案件一审没请律师还能上诉补救吗该怎么办",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "刑事案件一审没请律师还能上诉补救吗怎么解决",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "诈骗罪的立案标准是什么",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "诈骗罪的立案标准是什么？",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "请问诈骗罪的立案标准是什么",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "诈骗罪的立案标准是什么，求解",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "想咨询一下诈骗罪的立案标准是什么",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "关于诈骗罪的立案标准是什么的问题",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "诈骗罪的立案标准是什么应该怎么处理",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "诈骗罪的立案标准是什么有什么解决办法",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "遇到诈骗罪的立案标准是什么该怎么办",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "诈骗罪的立案标准是什么怎么解决",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "取保候审需要什么条件",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "取保候审需要什么条件？",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "请问取保候审需要什么条件",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "取保候审需要什么条件，求解",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "想咨询一下取保候审需要什么条件",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "关于取保候审需要什么条件的问题",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "取保候审需要什么条件应该怎么处理",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "取保候审需要什么条件有什么解决办法",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "遇到取保候审需要什么条件该怎么办",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "取保候审需要什么条件怎么解决",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "缓刑适用条件",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "缓刑适用条件？",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "请问缓刑适用条件",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "缓刑适用条件，求解",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "想咨询一下缓刑适用条件",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "关于缓刑适用条件的问题",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "缓刑适用条件应该怎么处理",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "缓刑适用条件有什么解决办法",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "遇到缓刑适用条件该怎么办",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "缓刑适用条件怎么解决",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "正当防卫需要承担责任吗",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "正当防卫需要承担责任吗？",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "请问正当防卫需要承担责任吗",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "正当防卫需要承担责任吗，求解",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "想咨询一下正当防卫需要承担责任吗",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "关于正当防卫需要承担责任吗的问题",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "正当防卫需要承担责任吗应该怎么处理",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "正当防卫需要承担责任吗有什么解决办法",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "遇到正当防卫需要承担责任吗该怎么办",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "正当防卫需要承担责任吗怎么解决",
+    "intent_label": "scenario-法律问答_node7",
+    "scenario_id": "criminal_consultation"
+  },
+  {
+    "user_input": "父母去世没有遗嘱我们兄妹怎么分房子",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "父母去世没有遗嘱我们兄妹怎么分房子？",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "请问父母去世没有遗嘱我们兄妹怎么分房子",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "父母去世没有遗嘱我们兄妹怎么分房子，求解",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "想咨询一下父母去世没有遗嘱我们兄妹怎么分房子",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "关于父母去世没有遗嘱我们兄妹怎么分房子的问题",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "父母去世没有遗嘱我们兄妹怎么分房子应该怎么处理",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "父母去世没有遗嘱我们兄妹怎么分房子有什么解决办法",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "遇到父母去世没有遗嘱我们兄妹怎么分房子该怎么办",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "父母去世没有遗嘱我们兄妹怎么分房子怎么解决",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "遗产继承顺序是什么",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "遗产继承顺序是什么？",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "请问遗产继承顺序是什么",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "遗产继承顺序是什么，求解",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "想咨询一下遗产继承顺序是什么",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "关于遗产继承顺序是什么的问题",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "遗产继承顺序是什么应该怎么处理",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "遗产继承顺序是什么有什么解决办法",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "遇到遗产继承顺序是什么该怎么办",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "遗产继承顺序是什么怎么解决",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "遗嘱怎么写才有效",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "遗嘱怎么写才有效？",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "请问遗嘱怎么写才有效",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "遗嘱怎么写才有效，求解",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "想咨询一下遗嘱怎么写才有效",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "关于遗嘱怎么写才有效的问题",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "遗嘱怎么写才有效应该怎么处理",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "遗嘱怎么写才有效有什么解决办法",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "遇到遗嘱怎么写才有效该怎么办",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "遗嘱怎么写才有效怎么解决",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "代位继承是什么意思",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "代位继承是什么意思？",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "请问代位继承是什么意思",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "代位继承是什么意思，求解",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "想咨询一下代位继承是什么意思",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "关于代位继承是什么意思的问题",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "代位继承是什么意思应该怎么处理",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "代位继承是什么意思有什么解决办法",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "遇到代位继承是什么意思该怎么办",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "代位继承是什么意思怎么解决",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "遗产继承需要公证吗",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "遗产继承需要公证吗？",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "请问遗产继承需要公证吗",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "遗产继承需要公证吗，求解",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "想咨询一下遗产继承需要公证吗",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "关于遗产继承需要公证吗的问题",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "遗产继承需要公证吗应该怎么处理",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "遗产继承需要公证吗有什么解决办法",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "遇到遗产继承需要公证吗该怎么办",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "遗产继承需要公证吗怎么解决",
+    "intent_label": "scenario-法律问答_node3",
+    "scenario_id": "family_consultation"
+  },
+  {
+    "user_input": "房屋买卖合同纠纷怎么处理",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "房屋买卖合同纠纷怎么处理？",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "请问房屋买卖合同纠纷怎么处理",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "房屋买卖合同纠纷怎么处理，求解",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "想咨询一下房屋买卖合同纠纷怎么处理",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "关于房屋买卖合同纠纷怎么处理的问题",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "房屋买卖合同纠纷怎么处理应该怎么处理",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "房屋买卖合同纠纷怎么处理有什么解决办法",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "遇到房屋买卖合同纠纷怎么处理该怎么办",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "房屋买卖合同纠纷怎么处理怎么解决",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "房产继承纠纷",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "房产继承纠纷？",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "请问房产继承纠纷",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "房产继承纠纷，求解",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "想咨询一下房产继承纠纷",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "关于房产继承纠纷的问题",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "房产继承纠纷应该怎么处理",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "房产继承纠纷有什么解决办法",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "遇到房产继承纠纷该怎么办",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "房产继承纠纷怎么解决",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "租客拖欠房租怎么办",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "租客拖欠房租怎么办？",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "请问租客拖欠房租怎么办",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "租客拖欠房租怎么办，求解",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "想咨询一下租客拖欠房租怎么办",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "关于租客拖欠房租怎么办的问题",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "租客拖欠房租怎么办应该怎么处理",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "租客拖欠房租怎么办有什么解决办法",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "遇到租客拖欠房租怎么办该怎么办",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "租客拖欠房租怎么办怎么解决",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "房屋质量问题找谁解决",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "房屋质量问题找谁解决？",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "请问房屋质量问题找谁解决",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "房屋质量问题找谁解决，求解",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "想咨询一下房屋质量问题找谁解决",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "关于房屋质量问题找谁解决的问题",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "房屋质量问题找谁解决应该怎么处理",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "房屋质量问题找谁解决有什么解决办法",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "遇到房屋质量问题找谁解决该怎么办",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "房屋质量问题找谁解决怎么解决",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "二手房买卖注意事项",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "二手房买卖注意事项？",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "请问二手房买卖注意事项",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "二手房买卖注意事项，求解",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "想咨询一下二手房买卖注意事项",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "关于二手房买卖注意事项的问题",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "二手房买卖注意事项应该怎么处理",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "二手房买卖注意事项有什么解决办法",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "遇到二手房买卖注意事项该怎么办",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "二手房买卖注意事项怎么解决",
+    "intent_label": "scenario-法律问答_node5",
+    "scenario_id": "real_estate_consultation"
+  },
+  {
+    "user_input": "专利申请流程",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "专利申请流程？",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "请问专利申请流程",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "专利申请流程，求解",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "想咨询一下专利申请流程",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "关于专利申请流程的问题",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "专利申请流程应该怎么处理",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "专利申请流程有什么解决办法",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "遇到专利申请流程该怎么办",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "专利申请流程怎么解决",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "商标注册需要什么材料",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "商标注册需要什么材料？",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "请问商标注册需要什么材料",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "商标注册需要什么材料，求解",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "想咨询一下商标注册需要什么材料",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "关于商标注册需要什么材料的问题",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "商标注册需要什么材料应该怎么处理",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "商标注册需要什么材料有什么解决办法",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "遇到商标注册需要什么材料该怎么办",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "商标注册需要什么材料怎么解决",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "著作权保护期限",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "著作权保护期限？",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "请问著作权保护期限",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "著作权保护期限，求解",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "想咨询一下著作权保护期限",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "关于著作权保护期限的问题",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "著作权保护期限应该怎么处理",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "著作权保护期限有什么解决办法",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "遇到著作权保护期限该怎么办",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "著作权保护期限怎么解决",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "侵犯知识产权怎么赔偿",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "侵犯知识产权怎么赔偿？",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "请问侵犯知识产权怎么赔偿",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "侵犯知识产权怎么赔偿，求解",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "想咨询一下侵犯知识产权怎么赔偿",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "关于侵犯知识产权怎么赔偿的问题",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "侵犯知识产权怎么赔偿应该怎么处理",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "侵犯知识产权怎么赔偿有什么解决办法",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "遇到侵犯知识产权怎么赔偿该怎么办",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "侵犯知识产权怎么赔偿怎么解决",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "域名纠纷怎么解决",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "域名纠纷怎么解决？",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "请问域名纠纷怎么解决",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "域名纠纷怎么解决，求解",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "想咨询一下域名纠纷怎么解决",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "关于域名纠纷怎么解决的问题",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "域名纠纷怎么解决应该怎么处理",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "域名纠纷怎么解决有什么解决办法",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "遇到域名纠纷怎么解决该怎么办",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "域名纠纷怎么解决怎么解决",
+    "intent_label": "scenario-法律问答_node6",
+    "scenario_id": "ip_consultation"
+  },
+  {
+    "user_input": "对行政处罚不服怎么办",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "对行政处罚不服怎么办？",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "请问对行政处罚不服怎么办",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "对行政处罚不服怎么办，求解",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "想咨询一下对行政处罚不服怎么办",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "关于对行政处罚不服怎么办的问题",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "对行政处罚不服怎么办应该怎么处理",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "对行政处罚不服怎么办有什么解决办法",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "遇到对行政处罚不服怎么办该怎么办",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "对行政处罚不服怎么办怎么解决",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "行政复议流程",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "行政复议流程？",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "请问行政复议流程",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "行政复议流程，求解",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "想咨询一下行政复议流程",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "关于行政复议流程的问题",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "行政复议流程应该怎么处理",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "行政复议流程有什么解决办法",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "遇到行政复议流程该怎么办",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "行政复议流程怎么解决",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "政府信息公开申请",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "政府信息公开申请？",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "请问政府信息公开申请",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "政府信息公开申请，求解",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "想咨询一下政府信息公开申请",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "关于政府信息公开申请的问题",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "政府信息公开申请应该怎么处理",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "政府信息公开申请有什么解决办法",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "遇到政府信息公开申请该怎么办",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "政府信息公开申请怎么解决",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "工商注册流程",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "工商注册流程？",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "请问工商注册流程",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "工商注册流程，求解",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "想咨询一下工商注册流程",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "关于工商注册流程的问题",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "工商注册流程应该怎么处理",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "工商注册流程有什么解决办法",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "遇到工商注册流程该怎么办",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "工商注册流程怎么解决",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "税务问题咨询",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "税务问题咨询？",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "请问税务问题咨询",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "税务问题咨询，求解",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "想咨询一下税务问题咨询",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "关于税务问题咨询的问题",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "税务问题咨询应该怎么处理",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "税务问题咨询有什么解决办法",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "遇到税务问题咨询该怎么办",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "税务问题咨询怎么解决",
+    "intent_label": "scenario-法律问答_node8",
+    "scenario_id": "administrative_consultation"
+  },
+  {
+    "user_input": "医疗事故赔偿标准",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "医疗事故赔偿标准？",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "请问医疗事故赔偿标准",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "医疗事故赔偿标准，求解",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "想咨询一下医疗事故赔偿标准",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "关于医疗事故赔偿标准的问题",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "医疗事故赔偿标准应该怎么处理",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "医疗事故赔偿标准有什么解决办法",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "遇到医疗事故赔偿标准该怎么办",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "医疗事故赔偿标准怎么解决",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "医疗纠纷处理程序",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "医疗纠纷处理程序？",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "请问医疗纠纷处理程序",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "医疗纠纷处理程序，求解",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "想咨询一下医疗纠纷处理程序",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "关于医疗纠纷处理程序的问题",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "医疗纠纷处理程序应该怎么处理",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "医疗纠纷处理程序有什么解决办法",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "遇到医疗纠纷处理程序该怎么办",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "医疗纠纷处理程序怎么解决",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "医疗过错怎么认定",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "医疗过错怎么认定？",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "请问医疗过错怎么认定",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "医疗过错怎么认定，求解",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "想咨询一下医疗过错怎么认定",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "关于医疗过错怎么认定的问题",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "医疗过错怎么认定应该怎么处理",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "医疗过错怎么认定有什么解决办法",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "遇到医疗过错怎么认定该怎么办",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "医疗过错怎么认定怎么解决",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "病历造假怎么办",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "病历造假怎么办？",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "请问病历造假怎么办",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "病历造假怎么办，求解",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "想咨询一下病历造假怎么办",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "关于病历造假怎么办的问题",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "病历造假怎么办应该怎么处理",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "病历造假怎么办有什么解决办法",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "遇到病历造假怎么办该怎么办",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "病历造假怎么办怎么解决",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "过度医疗怎么维权",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "过度医疗怎么维权？",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "请问过度医疗怎么维权",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "过度医疗怎么维权，求解",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "想咨询一下过度医疗怎么维权",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "关于过度医疗怎么维权的问题",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "过度医疗怎么维权应该怎么处理",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "过度医疗怎么维权有什么解决办法",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "遇到过度医疗怎么维权该怎么办",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "过度医疗怎么维权怎么解决",
+    "intent_label": "scenario-法律问答_node10",
+    "scenario_id": "other_legal_consultation"
+  },
+  {
+    "user_input": "你好律师在线吗",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "你好律师在线吗？",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "请问你好律师在线吗",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "你好律师在线吗，求解",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "想咨询一下你好律师在线吗",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "关于你好律师在线吗的问题",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "你好律师在线吗应该怎么处理",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "你好律师在线吗有什么解决办法",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "遇到你好律师在线吗该怎么办",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "你好律师在线吗怎么解决",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "我想咨询法律问题",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "我想咨询法律问题？",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "请问我想咨询法律问题",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "我想咨询法律问题，求解",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "想咨询一下我想咨询法律问题",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "关于我想咨询法律问题的问题",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "我想咨询法律问题应该怎么处理",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "我想咨询法律问题有什么解决办法",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "遇到我想咨询法律问题该怎么办",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "我想咨询法律问题怎么解决",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "需要法律帮助",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "需要法律帮助？",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "请问需要法律帮助",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "需要法律帮助，求解",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "想咨询一下需要法律帮助",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "关于需要法律帮助的问题",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "需要法律帮助应该怎么处理",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "需要法律帮助有什么解决办法",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "遇到需要法律帮助该怎么办",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "需要法律帮助怎么解决",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "法律咨询服务",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "法律咨询服务？",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "请问法律咨询服务",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "法律咨询服务，求解",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "想咨询一下法律咨询服务",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "关于法律咨询服务的问题",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "法律咨询服务应该怎么处理",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "法律咨询服务有什么解决办法",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "遇到法律咨询服务该怎么办",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "法律咨询服务怎么解决",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "有法律问题想请教",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "有法律问题想请教？",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "请问有法律问题想请教",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "有法律问题想请教，求解",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "想咨询一下有法律问题想请教",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "关于有法律问题想请教的问题",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "有法律问题想请教应该怎么处理",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "有法律问题想请教有什么解决办法",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "遇到有法律问题想请教该怎么办",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  },
+  {
+    "user_input": "有法律问题想请教怎么解决",
+    "intent_label": "scenario-法律问答_node1",
+    "scenario_id": "legal_consultation"
+  }
+]
