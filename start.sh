@@ -23,6 +23,18 @@ PROJECT_DIR="$(cd "$(dirname "$0")" && pwd)"
 cd "$PROJECT_DIR"
 info "项目目录: $PROJECT_DIR"
 
+# ---------- 尝试激活 Conda 环境 ----------
+CONDA_ENV_NAME="bishe"
+if command -v conda &> /dev/null; then
+    # 初始化 conda（确保 activate 可用）
+    eval "$(conda shell.bash hook 2>/dev/null)" 2>/dev/null
+    if conda env list 2>/dev/null | grep -q "^${CONDA_ENV_NAME} "; then
+        info "检测到 Conda 环境 '${CONDA_ENV_NAME}'，正在激活..."
+        conda activate "$CONDA_ENV_NAME" 2>/dev/null
+        ok "Conda 环境 '${CONDA_ENV_NAME}' 已激活"
+    fi
+fi
+
 # ---------- 1. 检查 .env ----------
 echo ""
 info "========== 第 1 步: 检查环境变量 =========="
@@ -50,7 +62,10 @@ if ! command -v python3 &> /dev/null && ! command -v python &> /dev/null; then
 fi
 
 PYTHON_CMD=""
-if command -v python3 &> /dev/null; then
+# Conda 环境中优先使用 python（Conda 的 python 指向环境内的版本）
+if [ -n "$CONDA_DEFAULT_ENV" ] && command -v python &> /dev/null; then
+    PYTHON_CMD="python"
+elif command -v python3 &> /dev/null; then
     PYTHON_CMD="python3"
 elif command -v python &> /dev/null; then
     PYTHON_CMD="python"
