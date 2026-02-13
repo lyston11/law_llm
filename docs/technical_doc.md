@@ -10,6 +10,7 @@
 │  ┌──────────┐  ┌──────────────┐  ┌──────────────────┐   │
 │  │ 会话管理  │  │   聊天界面    │  │  分析面板         │   │
 │  │SessionList│  │  ChatMessage  │  │  AnalysisPanel   │   │
+│  │          │  │  +推荐卡片 ⭐   │  │                  │   │
 │  └──────────┘  └──────────────┘  └──────────────────┘   │
 └─────────────────────────┬───────────────────────────────┘
                           │ HTTP REST API (Axios)
@@ -32,6 +33,11 @@
 │  │  RAGRetriever          │ │ NetworkX  │ │ Entity +   │ │
 │  │  ChromaDB + BGE        │ │ GraphML   │ │ Sentiment  │ │
 │  └────────────────────────┘ └───────────┘ └────────────┘ │
+│                                                              │
+│  ┌──────────────────────────────────────────────────────┐  │
+│  │  QuestionRecommender (src/recommendation.py) ⭐      │  │
+│  │  基于对话上下文生成智能推荐问题                      │  │
+│  └──────────────────────────────────────────────────────┘  │
 └──────────────────────────────────────────────────────────┘
 ```
 
@@ -45,6 +51,7 @@
 | 后端框架 | FastAPI | 0.100+ | 异步 REST API |
 | ASGI 服务器 | Uvicorn | 0.23+ | 高性能服务器 |
 | 大语言模型 | 通义千问 Qwen-Plus | — | 对话推理、Function Calling |
+| 推荐模型 | 通义千问 Qwen-Turbo | — | 智能问题生成 ⭐ |
 | 向量数据库 | ChromaDB | 0.4+ | RAG 向量存储 |
 | 嵌入模型 | BGE-small-zh-v1.5 | — | 文本向量化 |
 | 知识图谱 | NetworkX | 3.x | 图数据结构 |
@@ -72,10 +79,13 @@ DomainAgent._call_llm()  ── 调用 Qwen API (带 tools 参数)
   └── LLM 返回 content ──→ 最终回答
   │
   ▼
-返回 { response, agent_actions, sources, conversation_history }
+QuestionRecommender.generate() ⭐  ── 生成 3-5 个相关问题
   │
   ▼
-前端展示回答 + 推理过程 + 来源标注
+返回 { response, agent_actions, sources, conversation_history, recommended_questions }
+  │
+  ▼
+前端展示回答 + 推理过程 + 来源标注 + 推荐问题卡片 ⭐
 ```
 
 ---
@@ -450,6 +460,12 @@ const api = axios.create({
 - **内容格式化**：HTML 转义 + 换行符转 `<br>`
 - **来源标注**：当 `msg.sources` 有值时，底部展示引用领域和相关度百分比
 - **工具标签颜色**：知识库检索(蓝) / 法条查询(绿) / 知识图谱(橙) / 场景分析(灰)
+- **推荐问题卡片 ⭐**：
+  - 当 `msg.recommendedQuestions` 有值时，在 AI 回复下方展示推荐卡片
+  - 卡片标题："💡 您可能还想问："
+  - 卡片布局：每行显示 2-3 个问题，采用卡片式设计
+  - 交互逻辑：点击问题自动填入输入框（用户可编辑后再发送）
+  - 样式：鼠标悬停高亮，支持折叠/展开
 
 ---
 
@@ -482,6 +498,11 @@ const api = axios.create({
     ],
     "sources": [
         {"domain": "劳动纠纷", "score": 0.85, "snippet": "根据劳动合同法第四十七条..."}
+    ],
+    "recommended_questions": [  // ⭐ 新增：智能推荐问题
+        "如何计算经济补偿金？",
+        "公司违法辞退有哪些情形？",
+        "被辞退后社保怎么处理？"
     ]
 }
 ```
@@ -524,7 +545,251 @@ const api = axios.create({
 
 ---
 
-## 9. 旧版系统（src/legacy/）
+## 9. 智能问题推荐模块 ⭐
+
+### 9.1 模块概述
+
+**文件**：`src/recommendation.py`
+
+智能问题推荐模块基于对话上下文自动生成相关问题，帮助用户探索更多相关内容。
+
+**核心特性**：
+- 通用推荐机制，适配所有领域（不限于法律）
+- 利用现有 LLM 能力，无需额外模型训练
+- 失败降级：推荐失败不影响主对话流程
+- 智能跳过：简单对话（打招呼、感谢）不生成推荐
+
+### 9.2 QuestionRecommender 类
+
+**初始化**：
+```python
+class QuestionRecommender:
+    def __init__(self):
+        self.model = config.RECOMMEND_MODEL  # qwen-turbo
+        self.timeout = config.RECOMMEND_TIMEOUT
+        self.count_range = config.RECOMMEND_COUNT
+```
+
+**主要方法**：
+
+#### generate() - 生成推荐问题
+```python
+def generate(self, conversation_history, agent_actions, response):
+    """
+    基于对话上下文生成推荐问题
+
+    Args:
+        conversation_history: 对话历史列表
+        agent_actions: Agent 工具调用记录
+        response: AI 的最终回复
+
+    Returns:
+        list[str]: 推荐问题列表（3-5个），失败返回空列表
+    """
+    # 1. 判断是否跳过（简单对话、连续推荐等）
+    if self._should_skip(conversation_history, response):
+        return []
+
+    # 2. 构建 Prompt
+    prompt = self._build_prompt(conversation_history, agent_actions, response)
+
+    # 3. 调用 LLM（使用 qwen-turbo 以降低成本）
+    try:
+        result = self._call_llm(prompt, timeout=self.timeout)
+        questions = self._parse_response(result)
+        return questions
+    except Exception as e:
+        logger.warning(f"推荐生成失败: {e}")
+        return []
+```
+
+#### _should_skip() - 判断是否跳过推荐
+```python
+def _should_skip(self, conversation_history, response):
+    """判断是否应该跳过推荐生成"""
+    # 场景 1: 简短对话（打招呼、感谢、再见）
+    short_patterns = ["你好", "您好", "谢谢", "感谢", "再见", "拜拜"]
+    last_user_msg = conversation_history[-1].get("content", "")
+    if any(pattern in last_user_msg for pattern in short_patterns):
+        return True
+
+    # 场景 2: 用户明确表示没有其他问题
+    if any(pattern in response for pattern in ["没有其他问题", "暂无其他", "不需要了"]):
+        return True
+
+    # 场景 3: 回复过短（< 30 字）
+    if len(response) < 30:
+        return True
+
+    return False
+```
+
+#### _build_prompt() - 构建推荐 Prompt
+```python
+def _build_prompt(self, conversation_history, agent_actions, response):
+    """构建用于生成推荐问题的 Prompt"""
+    prompt = [
+        {
+            "role": "system",
+            "content": "基于当前对话，生成3-5个用户可能想问的相关问题。\n\n"
+                      "要求：\n"
+                      "1. 问题要具体、有价值，避免重复已有问题\n"
+                      "2. 考虑对话主题和工具调用结果（如检索到的知识、实体关系）\n"
+                      "3. 问题可以是：追问细节、了解相关概念、延伸话题、实用建议\n"
+                      "4. 简洁明了，每题不超过20字\n\n"
+                      "输出JSON格式：\n"
+                      '{\"questions\": [\"问题1\", \"问题2\", \"问题3\"]}'
+        },
+        {
+            "role": "user",
+            "content": self._format_context(conversation_history, agent_actions, response)
+        }
+    ]
+    return prompt
+```
+
+#### _format_context() - 格式化上下文
+```python
+def _format_context(self, conversation_history, agent_actions, response):
+    """将对话历史、工具调用、回复内容格式化为上下文"""
+    context_parts = [
+        "# 对话历史",
+        self._format_history(conversation_history[-3:]),  # 最近 3 轮
+        "",
+        "# 工具调用记录",
+        self._format_actions(agent_actions),
+        "",
+        "# AI 回复",
+        response
+    ]
+    return "\n".join(context_parts)
+```
+
+### 9.3 与 API 的集成
+
+在 `api/main.py` 的 `/dialog` 端点中集成推荐生成：
+
+```python
+@app.post("/dialog")
+async def dialog(request: DialogRequest):
+    # ... 获取对话历史 ...
+
+    # 1. Agent 生成回复
+    result = agent.chat(user_input, conversation_history)
+
+    # 2. ⭐ 生成推荐问题
+    recommended_questions = []
+    if config.RECOMMEND_ENABLED:
+        try:
+            recommender = QuestionRecommender()
+            recommended_questions = recommender.generate(
+                conversation_history=conversation_history,
+                agent_actions=result.get("agent_actions", []),
+                response=result["response"]
+            )
+        except Exception as e:
+            logger.warning(f"推荐生成失败: {e}")
+            # 失败不影响主流程，返回空列表
+
+    # 3. 返回完整响应
+    return {
+        "response": result["response"],
+        "agent_actions": result.get("agent_actions", []),
+        "sources": result.get("sources", []),
+        "conversation_history": result["conversation_history"],
+        "recommended_questions": recommended_questions  # ⭐
+    }
+```
+
+### 9.4 前端展示
+
+在 `ChatMessage.vue` 中添加推荐卡片：
+
+```vue
+<template>
+  <!-- AI 消息内容 -->
+  <div class="message-content">{{ formattedContent }}</div>
+
+  <!-- 推荐问题卡片 ⭐ -->
+  <div
+    v-if="message.recommendedQuestions?.length"
+    class="recommended-questions"
+  >
+    <div class="rq-header">💡 您可能还想问：</div>
+    <div class="rq-list">
+      <div
+        v-for="(question, idx) in message.recommendedQuestions"
+        :key="idx"
+        class="rq-item"
+        @click="handleQuestionClick(question)"
+      >
+        {{ question }}
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup>
+const handleQuestionClick = (question) => {
+  // 点击推荐问题后，自动填入输入框
+  emit('fill-input', question)
+}
+</script>
+
+<style scoped>
+.recommended-questions {
+  margin-top: 12px;
+  padding: 12px;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 100%);
+  border-radius: 8px;
+  border-left: 3px solid #409EFF;
+}
+
+.rq-header {
+  font-size: 13px;
+  font-weight: 500;
+  color: #606266;
+  margin-bottom: 8px;
+}
+
+.rq-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 8px;
+}
+
+.rq-item {
+  padding: 8px 12px;
+  background: white;
+  border-radius: 6px;
+  font-size: 13px;
+  color: #303133;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.rq-item:hover {
+  background: #409EFF;
+  color: white;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(64, 158, 255, 0.3);
+}
+</style>
+```
+
+### 9.5 性能与成本优化
+
+| 优化策略 | 实现方式 |
+|---------|---------|
+| **使用廉价模型** | 推荐使用 `qwen-turbo` 而非 `qwen-plus`，成本降低 50% |
+| **超时控制** | 设置 5 秒超时，避免阻塞主流程 |
+| **智能跳过** | 简单对话直接跳过，减少不必要的 LLM 调用 |
+| **失败降级** | 推荐失败返回空列表，不影响用户体验 |
+| **缓存优化**（未来） | 对相似问题缓存推荐结果，减少重复调用 |
+
+---
+
+## 10. 旧版系统（src/legacy/）
 
 ### 9.1 目录说明
 
@@ -573,6 +838,10 @@ const api = axios.create({
 | `MAX_DIALOG_HISTORY` | 10 | 对话历史保留轮数 |
 | `RAG_TOP_K` | 5 | 知识库检索返回数量 |
 | `RAG_EMBEDDING_MODEL` | `models/bge-small-zh-v1.5` | 嵌入模型路径 |
+| `RECOMMEND_ENABLED` | `True` | 是否启用智能推荐 ⭐ |
+| `RECOMMEND_COUNT` | `(3, 5)` | 推荐问题数量范围 ⭐ |
+| `RECOMMEND_TIMEOUT` | `5` | 推荐生成超时时间（秒）⭐ |
+| `RECOMMEND_MODEL` | `qwen-turbo` | 推荐生成使用的模型 ⭐ |
 
 ### 10.2 环境变量
 
