@@ -35,7 +35,7 @@
       <el-main class="chat-area">
         <el-scrollbar ref="scrollRef" class="chat-scroll">
           <div class="message-list" ref="messageListRef">
-            <ChatMessage v-for="(m, i) in messages" :key="i" :msg="m" />
+            <ChatMessage v-for="(m, i) in messages" :key="i" :msg="m" @fill-input="handleFillInput" />
             <!-- 加载中动画 -->
             <div v-if="sending" class="chat-message bot-msg loading-msg">
               <div class="avatar">
@@ -226,6 +226,7 @@ async function send() {
       time: now(),
       sources: data.sources || [],
       agentActions: data.agent_actions || [],
+      recommendedQuestions: data.recommended_questions || [],
     }
     messages.value.push(botMsg)
     turnIndex.value++
@@ -257,6 +258,10 @@ function handleKeydown(e) {
     e.preventDefault()
     send()
   }
+}
+
+function handleFillInput(question) {
+  inputText.value = question
 }
 
 // ========== 分析 ==========

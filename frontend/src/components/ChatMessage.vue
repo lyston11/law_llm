@@ -36,6 +36,24 @@
           {{ s.domain }} ({{ (s.score * 100).toFixed(0) }}%)
         </el-tag>
       </div>
+
+      <!-- 推荐问题卡片 -->
+      <div
+        v-if="msg.role === 'bot' && msg.recommendedQuestions && msg.recommendedQuestions.length > 0"
+        class="recommended-questions"
+      >
+        <div class="rq-header">💡 您可能还想问：</div>
+        <div class="rq-list">
+          <div
+            v-for="(question, idx) in msg.recommendedQuestions"
+            :key="idx"
+            class="rq-item"
+            @click="handleQuestionClick(question)"
+          >
+            {{ question }}
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -46,6 +64,8 @@ import { computed } from 'vue'
 const props = defineProps({
   msg: { type: Object, required: true },
 })
+
+const emit = defineEmits(['fill-input'])
 
 const formatted = computed(() => {
   if (!props.msg.content) return ''
@@ -77,6 +97,11 @@ function toolLabel(name) {
 
 function toolTagType(name) {
   return toolTagTypes[name] || ''
+}
+
+const handleQuestionClick = (question) => {
+  // 发射事件，将问题填入输入框
+  emit('fill-input', question)
 }
 </script>
 
@@ -179,5 +204,46 @@ function toolTagType(name) {
 }
 .source-tag {
   font-size: 11px;
+}
+
+/* 推荐问题卡片 */
+.recommended-questions {
+  margin-top: 12px;
+  padding: 12px;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 100%);
+  border-radius: 8px;
+  border-left: 3px solid #409EFF;
+}
+
+.rq-header {
+  font-size: 13px;
+  font-weight: 500;
+  color: #606266;
+  margin-bottom: 8px;
+}
+
+.rq-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 8px;
+}
+
+.rq-item {
+  padding: 8px 12px;
+  background: white;
+  border-radius: 6px;
+  font-size: 13px;
+  color: #303133;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: 1px solid #e4e7ed;
+}
+
+.rq-item:hover {
+  background: #409EFF;
+  color: white;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(64, 158, 255, 0.3);
+  border-color: #409EFF;
 }
 </style>
