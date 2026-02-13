@@ -80,3 +80,48 @@ class QuestionRecommender:
             return True
 
         return False
+
+    def _format_context(
+        self,
+        conversation_history: List[Dict[str, str]],
+        agent_actions: List[Dict],
+        response: str
+    ) -> str:
+        """
+        格式化对话上下文为结构化文本
+
+        Args:
+            conversation_history: 对话历史
+            agent_actions: Agent 工具调用记录
+            response: AI 回复
+
+        Returns:
+            格式化后的上下文字符串
+        """
+        context_parts = []
+
+        # 1. 对话历史（最近 3 轮）
+        context_parts.append("# 对话历史")
+        recent_history = conversation_history[-3:] if conversation_history else []
+        for msg in recent_history:
+            role = "用户" if msg.get("role") == "user" else "助手"
+            context_parts.append(f"- {role}: {msg.get('content', '')}")
+
+        # 2. 工具调用记录
+        context_parts.append("")
+        context_parts.append("# 工具调用记录")
+        if agent_actions:
+            for action in agent_actions:
+                tool_name = action.get("tool", "unknown")
+                result_summary = action.get("result_summary", "无结果")
+                context_parts.append(f"- 调用 {tool_name}")
+                context_parts.append(f"  结果: {result_summary}")
+        else:
+            context_parts.append("(无工具调用)")
+
+        # 3. AI 回复
+        context_parts.append("")
+        context_parts.append("# AI 回复")
+        context_parts.append(response)
+
+        return "\n".join(context_parts)
