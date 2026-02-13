@@ -12,6 +12,7 @@ from pydantic import BaseModel
 from typing import Optional
 import uvicorn
 import logging
+import asyncio
 
 from config import Config
 from src.agent import DomainAgent
@@ -177,7 +178,9 @@ async def dialog(request: DialogRequest):
         recommended_questions = []
         if recommender:  # 检查推荐器是否可用
             try:
-                recommended_questions = recommender.generate(
+                # 使用 asyncio.to_thread 让同步方法不阻塞事件循环
+                recommended_questions = await asyncio.to_thread(
+                    recommender.generate,
                     conversation_history=conversation_history,
                     agent_actions=result.get("agent_actions", []),
                     response=result["response"]
