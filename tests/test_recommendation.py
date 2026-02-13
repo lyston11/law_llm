@@ -122,3 +122,20 @@ def test_format_context_with_none_values():
     assert "# 对话历史" in context
     assert "(无工具调用)" in context
     assert "# AI 回复" in context
+
+
+def test_build_prompt():
+    """测试 Prompt 构建"""
+    recommender = QuestionRecommender()
+    history = [{"role": "user", "content": "测试"}]
+    actions = []
+    response = "测试回复"
+
+    prompt = recommender._build_prompt(history, actions, response)
+
+    assert isinstance(prompt, list)
+    assert len(prompt) == 2
+    assert prompt[0]["role"] == "system"
+    assert prompt[1]["role"] == "user"
+    assert "生成3-5个用户可能想问的相关问题" in prompt[0]["content"]
+    assert "# 对话历史" in prompt[1]["content"]

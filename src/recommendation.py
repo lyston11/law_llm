@@ -133,3 +133,42 @@ class QuestionRecommender:
         context_parts.append(response)
 
         return "\n".join(context_parts)
+
+    def _build_prompt(
+        self,
+        conversation_history: List[Dict[str, str]],
+        agent_actions: List[Dict],
+        response: str
+    ) -> List[Dict]:
+        """
+        构建用于生成推荐问题的 Prompt
+
+        Args:
+            conversation_history: 对话历史
+            agent_actions: Agent 工具调用记录
+            response: AI 回复
+
+        Returns:
+            OpenAI 格式的消息列表
+        """
+        context = self._format_context(conversation_history, agent_actions, response)
+
+        prompt = [
+            {
+                "role": "system",
+                "content": "基于当前对话，生成3-5个用户可能想问的相关问题。\n\n"
+                          "要求：\n"
+                          "1. 问题要具体、有价值，避免重复已有问题\n"
+                          "2. 考虑对话主题和工具调用结果（如检索到的知识、实体关系）\n"
+                          "3. 问题可以是：追问细节、了解相关概念、延伸话题、实用建议\n"
+                          "4. 简洁明了，每题不超过20字\n\n"
+                          "输出JSON格式：\n"
+                          '{"questions": ["问题1", "问题2", "问题3"]}'
+            },
+            {
+                "role": "user",
+                "content": context
+            }
+        ]
+
+        return prompt
