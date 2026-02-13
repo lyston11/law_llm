@@ -261,7 +261,16 @@ function handleKeydown(e) {
 }
 
 function handleFillInput(question) {
+  // 填入输入框
   inputText.value = question
+
+  // 聚焦输入框
+  nextTick(() => {
+    const inputElement = document.querySelector('.input-area textarea')
+    if (inputElement) {
+      inputElement.focus()
+    }
+  })
 }
 
 // ========== 分析 ==========
