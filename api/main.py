@@ -18,6 +18,7 @@ from src.agent import DomainAgent
 from src.history import DialogHistoryManager
 from src.feedback import FeedbackManager
 from src.summary import DialogSummaryManager
+from src.recommendation import QuestionRecommender
 
 config = Config()
 
@@ -59,6 +60,15 @@ history_manager = DialogHistoryManager()
 feedback_manager = FeedbackManager()
 summary_manager = DialogSummaryManager()
 
+# 推荐器（根据配置决定是否启用）
+recommender = None
+if config.RECOMMEND_ENABLED:
+    try:
+        recommender = QuestionRecommender()
+        logger.info("QuestionRecommender 初始化成功")
+    except Exception as e:
+        logger.warning(f"QuestionRecommender 初始化失败: {e}")
+
 # 会话对话历史存储（session_id → conversation_history）
 sessions: dict[str, list] = {}
 
@@ -76,6 +86,7 @@ class DialogResponse(BaseModel):
     status: str = "success"
     agent_actions: list = []
     sources: list = []
+    recommended_questions: list = []
 
 
 class FeedbackRequest(BaseModel):
@@ -132,7 +143,8 @@ async def dialog(request: DialogRequest):
     1. 获取会话的对话历史
     2. 将用户输入和历史交给 Agent
     3. Agent 自主决策：推理 → 调用工具 → 生成回答
-    4. 返回回答 + 工具调用记录 + 来源
+    4. 生成推荐问题（如果启用）
+    5. 返回回答 + 工具调用记录 + 来源 + 推荐问题
     """
     try:
         session_id = request.session_id
@@ -161,11 +173,25 @@ async def dialog(request: DialogRequest):
             is_legal_question=True,
         )
 
+        # 生成推荐问题
+        recommended_questions = []
+        if recommender:  # 检查推荐器是否可用
+            try:
+                recommended_questions = recommender.generate(
+                    conversation_history=conversation_history,
+                    agent_actions=result.get("agent_actions", []),
+                    response=result["response"]
+                )
+            except Exception as e:
+                logger.warning(f"推荐生成失败: {e}")
+                # 失败不影响主流程，返回空列表
+
         return DialogResponse(
             response=result["response"],
             session_id=session_id,
             agent_actions=result.get("agent_actions", []),
             sources=result.get("sources", []),
+            recommended_questions=recommended_questions,
         )
 
     except Exception as e:
