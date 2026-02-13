@@ -2,6 +2,7 @@
 测试推荐模块
 """
 import pytest
+from unittest.mock import Mock, patch
 from src.recommendation import QuestionRecommender
 
 
@@ -139,3 +140,44 @@ def test_build_prompt():
     assert prompt[1]["role"] == "user"
     assert "生成3-5个用户可能想问的相关问题" in prompt[0]["content"]
     assert "# 对话历史" in prompt[1]["content"]
+
+
+def test_generate_returns_list():
+    """测试 generate 方法返回列表"""
+    recommender = QuestionRecommender()
+    history = [{"role": "user", "content": "被公司辞退了怎么办"}]
+    actions = []
+    response = "根据劳动合同法第四十七条规定，用人单位违反劳动合同法规定解除或者终止劳动合同的，应当依照本法第四十七条规定的经济补偿标准的二倍向劳动者支付赔偿金。"
+
+    # Mock LLM 调用
+    with patch.object(recommender, '_call_llm') as mock_llm:
+        mock_llm.return_value = '{"questions": ["如何计算赔偿金？", "需要准备什么材料？"]}'
+        result = recommender.generate(history, actions, response)
+
+        assert isinstance(result, list)
+        assert len(result) == 2
+        assert "如何计算赔偿金？" in result
+
+
+def test_generate_skip_short_conversation():
+    """测试简单对话跳过推荐"""
+    recommender = QuestionRecommender()
+    history = [{"role": "user", "content": "你好"}]
+    actions = []
+    response = "您好！"
+
+    result = recommender.generate(history, actions, response)
+    assert result == []
+
+
+def test_generate_handles_gracefully():
+    """测试 LLM 调用失败时优雅降级"""
+    recommender = QuestionRecommender()
+    history = [{"role": "user", "content": "测试"}]
+    actions = []
+    response = "测试回复"
+
+    with patch.object(recommender, '_call_llm') as mock_llm:
+        mock_llm.side_effect = Exception("API error")
+        result = recommender.generate(history, actions, response)
+        assert result == []  # 失败返回空列表

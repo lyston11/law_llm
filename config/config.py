@@ -106,3 +106,9 @@ class Config:
         '行政': ['#行政案件类型#'],
         '合同': ['#合同类型#', '#合同标的#'],
     }
+
+    # ==================== 智能推荐配置 ====================
+    RECOMMEND_ENABLED = True           # 是否启用推荐
+    RECOMMEND_COUNT = (3, 5)          # 推荐 3-5 个问题
+    RECOMMEND_TIMEOUT = 5              # 超时时间（秒）
+    RECOMMEND_MODEL = "qwen-turbo"    # 推荐生成模型

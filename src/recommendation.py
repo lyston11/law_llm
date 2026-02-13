@@ -2,9 +2,11 @@
 智能问题推荐模块
 基于对话上下文生成相关问题推荐
 """
+import json
 import logging
 import re
 from typing import List, Dict, Any
+import httpx
 from config import Config
 
 logger = logging.getLogger(__name__)
@@ -172,3 +174,130 @@ class QuestionRecommender:
         ]
 
         return prompt
+
+    def generate(
+        self,
+        conversation_history: List[Dict[str, str]],
+        agent_actions: List[Dict],
+        response: str
+    ) -> List[str]:
+        """
+        生成推荐问题
+
+        Args:
+            conversation_history: 对话历史
+            agent_actions: Agent 工具调用记录
+            response: AI 回复
+
+        Returns:
+            推荐问题列表，失败或跳过时返回空列表
+        """
+        # 1. 判断是否跳过
+        if self._should_skip(conversation_history, response):
+            return []
+
+        # 2. 构建 Prompt
+        try:
+            prompt = self._build_prompt(conversation_history, agent_actions, response)
+        except Exception as e:
+            logger.error(f"构建 Prompt 失败: {e}")
+            return []
+
+        # 3. 调用 LLM
+        try:
+            llm_result = self._call_llm(prompt)
+        except Exception as e:
+            logger.warning(f"LLM 调用失败: {e}")
+            return []
+
+        # 4. 解析结果
+        try:
+            return self._parse_response(llm_result)
+        except Exception as e:
+            logger.warning(f"解析 LLM 结果失败: {e}, result={llm_result}")
+            return []
+
+    def _call_llm(self, messages: List[Dict]) -> str:
+        """
+        调用 Qwen API 生成推荐问题
+
+        Args:
+            messages: OpenAI 格式的消息列表
+
+        Returns:
+            LLM 返回的原始文本
+
+        Raises:
+            Exception: API 调用失败时抛出
+        """
+        api_url = getattr(Config, 'API_URL', 'https://dashscope.aliyuncs.com/api/v1/services/aigc/text-generation/generation')
+        api_key = getattr(Config, 'API_KEY', '')
+
+        headers = {
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json"
+        }
+
+        payload = {
+            "model": self.model,
+            "messages": messages,
+            "temperature": 0.7,
+            "result_format": "message"
+        }
+
+        try:
+            with httpx.Client(timeout=self.timeout) as client:
+                response = client.post(api_url, json=payload, headers=headers)
+                response.raise_for_status()
+                result = response.json()
+
+                # 提取 content
+                content = result["output"]["choices"][0]["message"]["content"]
+                return content
+
+        except Exception as e:
+            logger.error(f"Qwen API 调用失败: {e}")
+            raise
+
+    def _parse_response(self, llm_output: str) -> List[str]:
+        """
+        解析 LLM 返回的 JSON 结果
+
+        Args:
+            llm_output: LLM 返回的原始文本
+
+        Returns:
+            问题列表
+        """
+        try:
+            data = json.loads(llm_output)
+            questions = data.get("questions", [])
+
+            # 验证返回格式
+            if not isinstance(questions, list):
+                logger.warning(f"questions 不是列表: {type(questions)}")
+                return []
+
+            # 过滤空字符串
+            questions = [q.strip() for q in questions if q and q.strip()]
+
+            # 限制数量
+            min_count, max_count = self.count_range
+            if len(questions) > max_count:
+                questions = questions[:max_count]
+
+            logger.info(f"生成 {len(questions)} 个推荐问题")
+            return questions
+
+        except json.JSONDecodeError as e:
+            logger.warning(f"JSON 解析失败: {e}, output={llm_output}")
+            # 尝试提取数组部分
+            import re
+            match = re.search(r'\[.*?\]', llm_output)
+            if match:
+                try:
+                    questions = json.loads(match.group())
+                    return questions if isinstance(questions, list) else []
+                except:
+                    pass
+            return []
