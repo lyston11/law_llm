@@ -101,3 +101,24 @@ def test_format_context_multiple_actions():
     assert "search_lawsuit" in context
     assert "找到 3 条法律" in context
     assert "找到 2 个案例" in context
+
+
+def test_format_context_with_none_values():
+    """测试 None 值处理（防止 AttributeError 崩溃）"""
+    recommender = QuestionRecommender()
+
+    # 测试所有参数为 None
+    context = recommender._format_context(None, None, None)
+    assert "# 对话历史" in context
+    assert "(无工具调用)" in context
+    assert "# AI 回复" in context
+
+    # 测试部分参数为 None
+    context = recommender._format_context(
+        [{"role": "user", "content": "test"}],
+        None,
+        None
+    )
+    assert "# 对话历史" in context
+    assert "(无工具调用)" in context
+    assert "# AI 回复" in context

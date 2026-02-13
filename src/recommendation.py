@@ -98,6 +98,14 @@ class QuestionRecommender:
         Returns:
             格式化后的上下文字符串
         """
+        # 输入验证：处理 None 值（与 _should_skip 保持一致）
+        if conversation_history is None:
+            conversation_history = []
+        if agent_actions is None:
+            agent_actions = []
+        if response is None:
+            response = ""
+
         context_parts = []
 
         # 1. 对话历史（最近 3 轮）
